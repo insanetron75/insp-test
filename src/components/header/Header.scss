@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  font-size:2vw;
+}
+
+.candidate, .time-remaining {
+  padding: 0.5rem;
+}
+
+.theme-toggle {
+  padding: 0.25em;
+  margin: 0.5em;
+}
+
+.theme-toggle {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
